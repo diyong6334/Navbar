@@ -1,0 +1,70 @@
+body, header, nav{margin: 0;
+	line-height:1;
+	font-style:;
+	text-overflow: hidden;
+	display: block;
+}
+
+#head-section{background-color: navy;
+	color: white;
+	margin:0;
+	display: block;
+	height: 80px;
+
+}
+#head-section img{
+	margin-top: 50;
+	height: 80PX;
+	width: 80PX;
+}
+#company-name{
+	margin-top: 22px;
+	font-weight: bold;
+	position: absolute;
+	font-size: 1.6em;
+	text-decoration: underline;
+    }
+
+#slogan{
+	margin-top: 52px;
+	font-size: 1.1em;
+	position: absolute;
+}
+
+.navi{
+	background-color:#888;
+	color:#222;
+	margin:0px;
+	padding :15px;
+	overflow: auto;
+	position: relative;
+	
+	
+	}
+
+.navi  a{
+	text-decoration: none;
+	
+   border-right: 1px solid #bbb;
+   padding: 5px;
+   text-align:center;
+   margin:0px;
+   float: :left;
+   display: inline;
+   }
+
+.right{
+	float: right;
+	text-overflow: hidden;
+	
+}
+
+.navi a:hover{
+	background-color: rgb(0, 100, 0);
+	color:whitesmoke;
+}
+.navi a :visited{
+	background-color:red;
+	color:white;
+}
+
